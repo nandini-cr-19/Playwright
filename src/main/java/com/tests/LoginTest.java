@@ -27,7 +27,7 @@ public class LoginTest extends TestBase {
  
         String employeeName = "Thomas Kutty Benny";
 
-        String newUsername = "Nandini";
+        String newUsername = "Qwerqwe";
 
         String newPassword = "Jellyfish@123";
 
