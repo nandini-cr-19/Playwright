@@ -144,6 +144,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.utilities.ExcelReporter&quot;/&gt;
     &lt;listener class-name=&quot;com.utilities.CSVReporter&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;LoginTest&quot;&gt;
@@ -193,7 +194,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSuccessfulLogin')
 data.setCell(0, 2, 'com.tests.LoginTest')
-data.setCell(0, 3, 18589);
+data.setCell(0, 3, 18893);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -231,11 +232,11 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSuccessfulLogin</span>
-                <span class="method-start">6440 ms</span>
+                <span class="method-start">6595 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25031 ms</span>
+                <span class="method-start">25491 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
