@@ -9,7 +9,6 @@ import com.pages.EditUserPage;
 import com.pages.LoginPage;
 
 import com.pages.SearchUserPage;
-import com.pages.SearchUserPage;
 import com.utilities.TestBase;
 
 import org.testng.annotations.Test;
