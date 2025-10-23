@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="false">
   <!-- Listeners for custom reporting -->
   <listeners>
-    
+    <listener class-name="com.utilities.ExcelReporter"></listener>
     <listener class-name="com.utilities.CSVReporter"/>
   </listeners>
 

@@ -9,8 +9,9 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.ITestListener;
 
-public class ExcelReporter {
+public class ExcelReporter implements ITestListener{
     private static Workbook workbook = new XSSFWorkbook();
     private static Sheet sheet = workbook.createSheet("Test Results");
     private static int rowCount = 0;
